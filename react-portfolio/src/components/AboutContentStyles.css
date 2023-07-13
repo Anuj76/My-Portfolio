@@ -1,0 +1,89 @@
+.about {
+  width: 100%;
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.who {
+  text-align: center;
+}
+
+.about .left {
+  /* text-align: center; */
+  margin: auto;
+  padding: 1rem;
+  max-width: 600px;
+}
+
+.about .left p {
+  margin: 1.2rem 0;
+}
+
+.about .right {
+  max-width: 600px;
+}
+
+.right .img-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.right .img {
+  max-width: 90%;
+  border: 1px solid #333;
+}
+
+.right .top {
+  grid-column: 1 / span 8;
+  grid-row: 1;
+  padding-top: 40%;
+  z-index: 6;
+}
+
+.right .bottom {
+  grid-column: 4 / -1;
+  grid-row: 1;
+  padding-top: 20%;
+  z-index: 5;
+}
+
+.personalInfo {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-gap: 5px 5px;
+  margin-top: 14px;
+  color: #fff;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #555;
+}
+
+.personalInfo div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.personalInfo div span {
+  letter-spacing: 1px;
+}
+
+.cntbtn {
+  margin-top: 10px;
+  margin-left: 12rem;
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(248, 217, 15);
+  color: black;
+  border: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
